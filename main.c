@@ -91,7 +91,7 @@ int contaBianche(int **m, int r, int c){        //funzione che conta le caselle 
 }
 
 int cambioDir(int d1, int d2){                  //funzione che confronta due mosse per verificare un cambio di direzione;
-    if(d1==INIZIO || d2==INIZIO) return 0;      //caso speciale: nel primo passo della verifica il passo precedente �
+    if(d1==INIZIO || d2==INIZIO) return 0;      //caso speciale: nel primo passo della verifica il passo precedente e'
     return d1!=d2;                              //inizializzato a "INIZIO" (-1), per cui, non essendoci un effettivo passo
 }                                               //precedente non c'e' nessun cambio di direzione; in tutti gli altri casi: confronto;
 
